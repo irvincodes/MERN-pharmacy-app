@@ -1,5 +1,5 @@
 # Description
-A MERN stack app that is being developed as a class project at General Assembly. The purpose of the application is to provide a platform for users to check the availability of medicines and pharmacists. The app is built using React for the front-end, Node.js and Express for the back-end, and MongoDB for the database.
+A MERN stack app that was developed as part of a project at General Assembly. The purpose of the application is to provide a platform for users to check the availability of medicines and pharmacists. The app is built using React for the front-end, Node.js and Express for the back-end, and MongoDB for the database.
 
 # Technologies & Tools Used
 - JavaScript
