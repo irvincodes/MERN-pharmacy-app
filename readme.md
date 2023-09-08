@@ -44,7 +44,7 @@ As a admin/pharmacists user, I want to
 ![Model](readmeImg/Model.png)
 
 # Deployment
-This app is deployed on [Cyclic](https://good-blue-squid-robe.cyclic.cloud/) .
+This app is deployed on and can be experienced via [Cyclic](https://good-blue-squid-robe.cyclic.cloud/).
 
 # App Screenshots
 
