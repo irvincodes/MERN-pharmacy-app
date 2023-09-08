@@ -66,7 +66,8 @@ const LoginForm = ({ setUser }) => {
           placeholder="Password"
           value={loginAttempt.password}
           onChange={handleChange}
-          className="border border-wPurple-50 rounded py-1 px-14 my-5 text-center" 
+          className="border border-wPurple-50 rounded py-1 px-14 my-5 text-center"
+          hidden={true} 
         />
      </div>
      <div>
