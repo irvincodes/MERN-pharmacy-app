@@ -1,6 +1,8 @@
 # Description
 A MERN stack app that was developed as part of a project at General Assembly. The purpose of the application is to provide a platform for users to check the availability of medicines and pharmacists. The app is built using React for the front-end, Node.js and Express for the back-end, and MongoDB for the database.
 
+As this application is targeted for on the go use, this application is mobile first and most interfaces focus on mobile rather than web dimensions.
+
 # Technologies & Tools Used
 - JavaScript
 - HTML
@@ -42,7 +44,19 @@ As a admin/pharmacists user, I want to
 ![Model](readmeImg/Model.png)
 
 # Deployment
-This app is deployed on [Cyclic](https://enchanting-shrug-pike.cyclic.app) .
+This app is deployed on [Cyclic](https://good-blue-squid-robe.cyclic.cloud/) .
+
+# App Screenshots
+
+Homepage View            |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Homepage View](readmeImg/homepage-view.png)   |  ![Homepage View](readmeImg/homepage-view.png) 
+
+
+
+
+
+
 
 # Breakdown & Analysis of Code
 When user login, the handleSubmit function sends a POST request to the server's /api/users/login endpoint. If the credentials are correct, the server returns a token in the response, which is stored in the browser's local storage using the localStorage.setItem() method. The token is then decoded using the jwt_decode library, which extracts the user's account information from the token payload. The account information is used to determine which page the user should be redirected to, based on their account type.
